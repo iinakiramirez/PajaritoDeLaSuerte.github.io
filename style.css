@@ -17,7 +17,7 @@ h1{
   position: fixed;
   font-size: 60px;
   top: 0%;
-  left: 60%;
+  left: 55%;
   padding: 10px 10px; /* Adjust padding as needed */
   z-index: 1000; /* Ensure it's above other elements */
 
@@ -27,11 +27,23 @@ h1{
   position: fixed;
   font-size: 20px;
   top: calc(60px + 120px); /* 100px is the height of h1, adjust as needed */
-  left: 61%;
+  left: 56%;
   
 }
 
 .main-text{
-  padding-top: 30px;
+  padding-top: 60px;
   padding-left: 30px;
+}
+
+.box1{
+  width: 700px; /* Width of your box */
+
+
+}
+
+#m-text{
+  word-wrap: break-word;
+  text-align: justify;
+  line-height: 1.5;
 }
