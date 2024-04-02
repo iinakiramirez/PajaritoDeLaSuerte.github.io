@@ -32,6 +32,13 @@ h1{
  
 }
 
+#author{
+    position: fixed;
+    top: calc(60px + 370px); /* 100px is the height of h1, adjust as needed */
+    left: 56%;
+
+}
+
 .image-container {
  position: fixed;
  top: 28%;
