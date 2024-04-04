@@ -70,3 +70,8 @@ h1{
   line-height: 1.5;
 }
 
+#quote{
+  word-wrap: break-word;
+  text-align: justify;
+  line-height: 1.5;
+}
