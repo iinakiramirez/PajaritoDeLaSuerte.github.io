@@ -36,12 +36,23 @@
           The device is composed of three main building blocks: First a granular synthesis engine, were samples are loaded and transformed through this synthesis technique. Second, a generative multi-clock sequencer, that produces interesting rhythms and modulation. These rhythms are self-evolving and will change on its own through time. Third, a complex stochastic algorithm and decision tree, activated by the generate button of the device, changing the parameters of both the sequencer and grain engine. As well, through this algorithm different modes of modulation might be selected or deselected in the synthesis process of the device. <br> <br>
           For more information on the synthesis and DSP techniques used in the device, check the following sources. The granular synthesis in this device was mainly inspired by Curtis Roads and his book Microsound that can be found <a href="https://monoskop.org/images/d/d1/Roads_Curtis_Microsound.pdf " target="_blank">here.</a> The sequencer was inspired in the practice of Mark Fell and his algorithmic composition, more information <a href="https://www.factmag.com/2018/10/06/mark-fell-signal-path/ " target="_blank">here.</a> Finally the chance algorithm was inspired in Iannis Xenakis and stochastic composition, more information <a href="http://sites.music.columbia.edu/cmc/courses/g6611/spring2012/week12/Gendy3.pdf " target="_blank">here.</a>  
         </p>
-        <h3>Instructions:</h3>
+        <h3>Interface:</h3>
         <p>Pajarito De La Suerte has only five parameters making it very easy to use. The sound generator in this device is a grain engine, which means that the device requires an input audio sample to function. Samples need to be dragged and dropped in the <strong class="bbold">Audio Buffer</strong>. <u> Please note that this device only works on WAV files.</u> The device will manipulate and recontextualise the samples used, so the selection of the input sample will drastically impact the sonic character of the output.</p>
         <p>Then the device has a slider labelled <strong class="bbold">Sequence/Drone</strong>, which shifts between the form of the amplitude envelope. If the slider is placed at its rightmost maximum or value 127, the amplitude enveloped is disabled, generating a drone. From there, moving the slider to the left will enable the envelope, triggered by the sequencer. The further left the slider goes, the shorter the decay in the envelope becomes. <u>Please note that the Ableton transport most be on for the sequencer to run.</u> </p>
         <p> The <strong class="bbold">Loop Toggle</strong> makes the sequencer loop in a specific pattern instead of being generative. </p>
         <p>The <strong class="bbold"> Generate Button </strong> is the most important parameter in the device. When pushed the algorithm will choose specific parameters or modulations in both the sequencer and the grain engine. Each single click of the button might result in drastic sonic changes, so if you like something ensure you record it as it can be lost for ever if the button gets clicked again. </p>
-        <p>Finally you get the <strong>Gain Meter</strong> at the end, to adjust output volume. </p>
+        <p>Finally you get the <strong class="bbold">Gain Meter</strong> at the end, to adjust output volume. </p>
+        <h3>Getting Started:</h3>
+        <ul>
+          <li>Choose a WAV audio file and drag and drop it in the <strong class="bbold">Audio Buffer</strong>.</li>
+          <li>Start <strong class="bbold">Ableton’s Transport</strong>. The sequencer and some modulation do not work without it. </li>
+          <li>Position the slider labelled <strong class="bbold">Sequence/Drone</strong> to its rightmost position. This will generate a sustain sound or a drone. </li>
+          <li>Click the  <strong class="bbold"> Generate Button </strong>to change the characteristic of the sound. </li>
+          <li>Test the sequencer by moving the slider towards the left, experimenting with different decay lengths. If no sound is produced it is probable that the transport is off or that the playback head of the sample is in a position with no data. </li>
+          <li>Keep clicking the <strong class="bbold"> Generate Button </strong> to change and manipulate the sound. </li>
+          <li>If you find a sequence that you like, turn on the <strong class="bbold">Loop Toggle</strong>. This will freeze the sequence in a 16 bar beat. </li>
+          <li>Finally adjust the <strong class="bbold">Gain Meter</strong> for desired levels. If the input sample has a high gain then the meter will probably clip. </li>
+        </ul>
        </div>
     
 

@@ -3,6 +3,11 @@
   src: url(NB-International-Pro-Edition-OTF/NBInternationalProIta.otf);
 }
 
+@font-face {
+  font-family: myFont2;
+  src: url(NB-International-Pro-Edition-OTF/NBInternationalProBolIta.otf);
+}
+
 
 html, body {
   margin: 0;
@@ -80,5 +85,6 @@ h1{
 } */
 
 .bbold{
+  font-family: myFont2;
   font-weight: bolder;
 }
