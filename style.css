@@ -78,3 +78,7 @@ h1{
   text-align: justify;
   line-height: 1.5;
 } */
+
+.bbold{
+  font-weight: bolder;
+}
