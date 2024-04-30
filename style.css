@@ -39,7 +39,7 @@ h1{
 
 #author{
     position: fixed;
-    top: calc(60px + 370px); /* 100px is the height of h1, adjust as needed */
+    top: calc(60px + 420px); 
     left: 56%;
 
 }
@@ -53,8 +53,8 @@ h1{
 
 #device-image {
   position: relative; /* Ensure positioning context for absolute positioning */
-  width: 600px; /* Adjust container width as needed */
-  height: 200px; /* Adjust container height as needed */
+  width: 500px; /* Adjust container width as needed */
+  height: auto; /* Adjust container height as needed */
 
 }
 
