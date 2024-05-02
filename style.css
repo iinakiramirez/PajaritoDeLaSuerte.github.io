@@ -7,6 +7,10 @@
   font-family: myFont2;
   src: url(NB-International-Pro-Edition-OTF/NBInternationalProBolIta.otf);
 }
+@font-face {
+  font-family: myFont3;
+  src: url(NB-International-Pro-Edition-OTF/NBInternationalProMed.otf);
+}
 
 
 html, body {
@@ -16,6 +20,10 @@ html, body {
   font-family: myFont;
 
 
+}
+
+p{
+  font-family: myFont3;
 }
 
 
